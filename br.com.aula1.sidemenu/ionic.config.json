@@ -1,0 +1,7 @@
+{
+  "name": "br.com.aula1.sidemenu",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

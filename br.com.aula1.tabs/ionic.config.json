@@ -1,0 +1,7 @@
+{
+  "name": "br.com.aula1.tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
