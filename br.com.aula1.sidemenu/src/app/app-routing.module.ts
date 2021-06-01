@@ -26,6 +26,14 @@ const routes: Routes = [
   {
     path: 'botoes',
     loadChildren: () => import('./botoes/botoes.module').then( m => m.BotoesPageModule)
+  },
+  {
+    path: 'alert',
+    loadChildren: () => import('./alert/alert.module').then( m => m.AlertPageModule)
+  },
+  {
+    path: 'actionshet',
+    loadChildren: () => import('./actionshet/actionshet.module').then( m => m.ActionshetPageModule)
   }
 ];
 
