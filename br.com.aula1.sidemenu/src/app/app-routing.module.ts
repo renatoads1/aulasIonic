@@ -34,6 +34,18 @@ const routes: Routes = [
   {
     path: 'actionshet',
     loadChildren: () => import('./actionshet/actionshet.module').then( m => m.ActionshetPageModule)
+  },
+  {
+    path: 'badge',
+    loadChildren: () => import('./badge/badge.module').then( m => m.BadgePageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'checkbox',
+    loadChildren: () => import('./checkbox/checkbox.module').then( m => m.CheckboxPageModule)
   }
 ];
 

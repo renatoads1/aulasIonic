@@ -11,8 +11,10 @@ export class AppComponent {
     { title: 'Component', url: '/folder/Component', icon: 'grid' },
     { title: 'Button', url: '/botoes', icon: 'add' },
     { title: 'Alert', url: '/alert', icon: 'add' },
-    { title: 'ActionSheet', url: '/actionshet', icon: 'add' }
-    // { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
+    { title: 'ActionSheet', url: '/actionshet', icon: 'add' },
+    { title: 'Badge', url: '/badge', icon: 'add' },
+    { title: 'Card', url: '/card', icon: 'add' },
+    { title: 'CheckBox', url: '/checkbox', icon: 'add' }
     // { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     // { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     // { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
