@@ -14,7 +14,9 @@ export class AppComponent {
     { title: 'ActionSheet', url: '/actionshet', icon: 'add' },
     { title: 'Badge', url: '/badge', icon: 'add' },
     { title: 'Card', url: '/card', icon: 'add' },
-    { title: 'CheckBox', url: '/checkbox', icon: 'add' }
+    { title: 'CheckBox', url: '/checkbox', icon: 'add' },
+    { title: 'Infinit Scroll', url: '/infinitscroll', icon: 'add' },
+    { title: 'Input', url: '/input', icon: 'add' }
     // { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     // { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     // { title: 'Spam', url: '/folder/Spam', icon: 'warning' },

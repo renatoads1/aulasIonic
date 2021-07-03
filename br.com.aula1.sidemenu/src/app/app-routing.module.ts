@@ -46,6 +46,14 @@ const routes: Routes = [
   {
     path: 'checkbox',
     loadChildren: () => import('./checkbox/checkbox.module').then( m => m.CheckboxPageModule)
+  },
+  {
+    path: 'infinitscroll',
+    loadChildren: () => import('./infinitscroll/infinitscroll.module').then( m => m.InfinitscrollPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./input/input.module').then( m => m.InputPageModule)
   }
 ];
 
